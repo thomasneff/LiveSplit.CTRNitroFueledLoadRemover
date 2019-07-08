@@ -1,6 +1,6 @@
 # How to set it up
 
-** Download the newest Release from the "Releases" Section up top. **
+## Download the newest Release from the "Releases" Section up top.
 
 Extract the .zip into your LiveSplit/Components folder, such that it contains all .ctrnfdata files and LiveSplit.CTRNitroFueledLoadRemover.dll.
 
