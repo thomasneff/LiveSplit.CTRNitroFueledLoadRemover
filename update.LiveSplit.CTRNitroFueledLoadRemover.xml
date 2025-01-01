@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <updates>
+	<update version="1.8">
+		<files>
+			<file path="Components/LiveSplit.CTRNitroFueledLoadRemover.dll" status="changed" />
+			<file path="Components/Arabic.ctrnfdata" status="changed" />
+			<file path="Components/English.ctrnfdata" status="changed" />
+			<file path="Components/French.ctrnfdata" status="changed" />
+			<file path="Components/German.ctrnfdata" status="changed" />
+			<file path="Components/Italian.ctrnfdata" status="changed" />
+			<file path="Components/Latin_Spanish.ctrnfdata" status="changed" />
+			<file path="Components/Portuguese.ctrnfdata" status="changed" />
+			<file path="Components/CaptureSampleCore.dll" status="changed" />
+			<file path="Components/Composition.WindowsRuntimeHelpers.dll" status="changed" />
+			<file path="Components/SharpDX.Direct3D11.dll" status="changed" />
+			<file path="Components/SharpDX.Direct3D11.xml" status="changed" />
+			<file path="Components/SharpDX.dll" status="changed" />
+			<file path="Components/SharpDX.DXGI.dll" status="changed" />
+			<file path="Components/SharpDX.DXGI.xml" status="changed" />
+			<file path="Components/System.Drawing.Common.dll" status="changed" />
+		</files>
+		<changelog>
+			<change>
+				Add back disable plugin option.
+			</change>
+		</changelog>
+	</update>
 	<update version="1.7">
 		<files>
 			<file path="Components/LiveSplit.CTRNitroFueledLoadRemover.dll" status="changed" />

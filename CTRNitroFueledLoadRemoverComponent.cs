@@ -146,6 +146,9 @@ namespace LiveSplit.UI.Components
 
     private void CaptureLoads()
     {
+      if (settings.PluginDisabled)
+        return;
+
       try
       {
 

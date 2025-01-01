@@ -46,6 +46,8 @@ namespace LiveSplit.UI.Components
         //This means that if a split would happen during these frames, it is ignored.
         public int AutoSplitterManualSplitDelayFrames = 50;
 
+        public bool PluginDisabled = false;
+
         #endregion Public Fields
 
         #region Private Fields
@@ -1509,6 +1511,11 @@ namespace LiveSplit.UI.Components
         private void lblBlackLevel_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void chkDisablePlugin_CheckedChanged(object sender, EventArgs e)
+        {
+            PluginDisabled = chkDisablePlugin.Checked;
         }
     }
 

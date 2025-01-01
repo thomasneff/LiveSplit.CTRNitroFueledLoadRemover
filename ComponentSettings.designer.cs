@@ -85,6 +85,7 @@
             this.devToolsCropX = new System.Windows.Forms.NumericUpDown();
             this.label7 = new System.Windows.Forms.Label();
             this.devToolsCroppedPictureBox = new System.Windows.Forms.PictureBox();
+            this.chkDisablePlugin = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.previewPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.croppedPreviewPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
@@ -730,6 +731,7 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage3.Controls.Add(this.chkDisablePlugin);
             this.tabPage3.Controls.Add(this.devToolsDataBaseFromCaptureImages);
             this.tabPage3.Controls.Add(this.label10);
             this.tabPage3.Controls.Add(this.devToolsCaptureImageText);
@@ -894,6 +896,20 @@
             this.devToolsCroppedPictureBox.TabIndex = 31;
             this.devToolsCroppedPictureBox.TabStop = false;
             // 
+            // chkDisablePlugin
+            // 
+            this.chkDisablePlugin.AutoSize = true;
+            this.chkDisablePlugin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkDisablePlugin.ForeColor = System.Drawing.Color.Red;
+            this.chkDisablePlugin.Location = new System.Drawing.Point(9, 4);
+            this.chkDisablePlugin.Margin = new System.Windows.Forms.Padding(4);
+            this.chkDisablePlugin.Name = "chkDisablePlugin";
+            this.chkDisablePlugin.Size = new System.Drawing.Size(172, 29);
+            this.chkDisablePlugin.TabIndex = 46;
+            this.chkDisablePlugin.Text = "Disable Plugin";
+            this.chkDisablePlugin.UseVisualStyleBackColor = true;
+            this.chkDisablePlugin.CheckedChanged += new System.EventHandler(this.chkDisablePlugin_CheckedChanged);
+            // 
             // CTRNitroFueledLoadRemoverSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -989,5 +1005,6 @@
     private System.Windows.Forms.Label label19;
     private System.Windows.Forms.NumericUpDown numTopLeftRectY;
         private System.Windows.Forms.CheckBox chkWGCEnabled;
+        private System.Windows.Forms.CheckBox chkDisablePlugin;
     }
 }
